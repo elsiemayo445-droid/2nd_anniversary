@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Create Proposal</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Create Proposal ❤️</h1>
+
+    <input
+        type="text"
+        id="proposer"
+        placeholder="Your Name">
+
+    <input
+        type="text"
+        id="partner"
+        placeholder="Partner Name">
+
+    <button id="createBtn">
+    Generate Code ❤️
+</button>
+
+    <div id="proposalResult">
+
+    </div>
+
+</div>
+
+<script type="module">
+
+import {
+    createProposal
+}
+from "./js/script.js";
+
+document
+.getElementById("createBtn")
+.addEventListener(
+    "click",
+    createProposal
+);
+
+</script>
+
+</body>
+
+</html>

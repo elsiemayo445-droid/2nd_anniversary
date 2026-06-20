@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Wedding Certificate</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<div class="certificate">
+
+    <h1>💍 Virtual Wedding Certificate 💍</h1>
+
+    <p>This certifies that</p>
+
+    <h2 id="name1"></h2>
+
+    <p>&</p>
+
+    <h2 id="name2"></h2>
+
+    <p>
+        are united in virtual marriage.
+    </p>
+
+    <p id="date"></p>
+
+    <button
+        onclick="window.location.href='message.html'">
+
+        Congratulations ❤️
+
+    </button>
+
+</div>
+
+<script type="module">
+
+import {
+    loadCertificate
+}
+from "script.js";
+
+loadCertificate();
+
+</script>
+
+</body>
+
+</html>

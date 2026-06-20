@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Answer Proposal</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Answer Proposal ❤️</h1>
+
+    <input
+        type="text"
+        id="proposalCode"
+        placeholder="Enter Proposal Code">
+
+    <button id="verifyBtn">
+
+        Continue ❤️
+
+    </button>
+
+</div>
+
+<script type="module">
+
+import {
+    verifyProposal
+}
+from "script.js";
+
+document
+.getElementById("verifyBtn")
+.addEventListener(
+    "click",
+    verifyProposal
+);
+
+</script>
+
+</body>
+
+</html>

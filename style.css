@@ -1,0 +1,244 @@
+body{
+
+    margin:0;
+
+    font-family:
+    Arial,
+    sans-serif;
+
+    background:
+    #fff7f8;
+
+    text-align:center;
+
+}
+
+
+/* =====================
+   GENERAL CONTAINERS
+===================== */
+
+.container,
+.message-box,
+.letter,
+.certificate{
+
+    width:90%;
+
+    max-width:800px;
+
+    margin:40px auto;
+
+    padding:25px;
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 0 15px
+    rgba(0,0,0,.1);
+
+}
+
+
+/* =====================
+   INPUTS
+===================== */
+
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin:10px 0;
+
+    box-sizing:border-box;
+
+    border-radius:10px;
+
+    border:
+    1px solid #ccc;
+
+}
+
+
+/* =====================
+   BUTTONS
+===================== */
+
+button{
+
+    padding:15px 30px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    margin-top:15px;
+
+}
+
+
+/* =====================
+   CERTIFICATE
+===================== */
+
+.certificate{
+
+    border:
+    6px solid gold;
+
+}
+
+
+.certificate h2{
+
+    font-size:40px;
+
+}
+
+
+/* =====================
+   SLIDESHOW
+===================== */
+
+.slideshow-container{
+
+    width:90%;
+
+    margin:auto;
+
+}
+
+
+.slide-image{
+
+    width:100%;
+
+    max-width:800px;
+
+    height:auto;
+
+    border-radius:15px;
+
+}
+
+
+/* =====================
+   MOBILE
+===================== */
+
+@media(max-width:768px){
+
+    h1{
+
+        font-size:28px;
+
+    }
+
+    h2{
+
+        font-size:24px;
+
+    }
+
+    button{
+
+        width:100%;
+
+    }
+
+}
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+}
+
+.container{
+    width:90%;
+    max-width:600px;
+    margin:50px auto;
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#b0004f;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#900040;
+}
+
+.certificate{
+    width:80%;
+    margin:50px auto;
+    text-align:center;
+    background:#fffbe8;
+    border:8px solid gold;
+    padding:40px;
+}
+
+.certificate h2{
+    font-size:40px;
+    font-family:cursive;
+}
+
+.slideshow-container{
+    text-align:center;
+    margin-top:40px;
+}
+
+.slide-image{
+    width:80%;
+    max-width:700px;
+    height:500px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+
+.message-box,
+.letter{
+    width:80%;
+    max-width:700px;
+    margin:80px auto;
+    text-align:center;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,.1);
+}
+
+.slideshow-container{
+    text-align:center;
+    margin-top:30px;
+}
+
+.slide-image{
+    width:80%;
+    max-width:700px;
+    height:500px;
+    object-fit:cover;
+    border-radius:15px;
+    transition:opacity 1s ease;
+}

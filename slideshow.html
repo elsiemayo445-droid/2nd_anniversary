@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Our Memories ❤️</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<div class="slideshow-container">
+
+    <h1>❤️ Our Journey ❤️</h1>
+
+    <img
+        id="slide"
+        src="images/photo1.jpg"
+        class="slide-image">
+
+    <br><br>
+
+    <button onclick="window.location.href='loveletter.html'">
+    Continue ❤️
+</button>
+
+</div>
+
+<audio id="loveSong">
+
+    <source
+        src="John Legend - Tonight (Best You Ever Had) (Official Video) ft. Ludacris.mp3"
+        type="audio/mp3">
+
+</audio>
+
+<script type="module">
+
+import {
+    startSlideshow,
+    goToLoveLetter
+}
+from "script.js";
+
+document
+.getElementById("skipBtn")
+.addEventListener(
+    "click",
+    goToLoveLetter
+);
+
+startSlideshow();
+
+</script>
+
+</body>
+
+</html>
